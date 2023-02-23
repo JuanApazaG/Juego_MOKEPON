@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+body {
+    font-family: 'Mynerve', cursive;  
+    background-color: #222831 ;
+}
+
+#seleccionar-mascota {
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    color:white ;
+    font-size: 32px;
+}
+
+.subtitulo {
+    color:white ;
+    font-size: 20px;
+}
+
+.tarjetas {
+    display: flex;
+    gap: 10px;
+}
+
+.tarjeta-de-mokepon {
+    width: 180px;
+    height: 100px;
+    background: #393E46;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    color:white ;
+}
+
+.tarjeta-de-mokepon img {
+    width: 80px;
+}
+
+#boton-mascota {
+    color: white;
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid white;
+    font-family: 'Mynerve', cursive;
+    margin: 30px;
+}
+
+input {
+    display: none;
+  }
+  
+#seleccionar-ataque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.boton-de-ataque {
+    background-color:#393E46 ;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-color: transparent;
+    width: 110px;
+    color: white; 
+    font-family: 'Mynerve', cursive;
+}
+#mensajes{
+    width: 280px;
+    background: #00ADB5;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#boton-reiniciar{
+    border: transparent;
+    color: #EEEEEE; 
+    font-family: 'Mynerve', cursive;
+}
