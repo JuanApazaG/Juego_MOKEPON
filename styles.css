@@ -86,7 +86,8 @@ input {
     flex-direction: column;
 }
 #boton-reiniciar{
-    border: transparent;
-    color: #EEEEEE; 
+    border: none;
+    color: #00ADB5; 
+    border-radius: 10px;
     font-family: 'Mynerve', cursive;
 }
