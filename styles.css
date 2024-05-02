@@ -113,8 +113,26 @@ input:checked + label{
 
 }
 
-@media(max-width: 360px){
+#ver-mapa button {
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid white;
+    font-family: 'Mynerve', cursive;
+    margin: 10px 0;
+}
+
+@media(max-width: 560px){
 .tarjetas, .tarjetas-ataques{
     flex-direction: column;
 }
+}
+@media(max-width: 300px){
+    #ver-mapa{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+    }
 }
